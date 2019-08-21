@@ -50,10 +50,14 @@
     width: 30px;
 }
 
-/*categorias*/
-
 .itens {
-    background-color: red;
+    position: static;
+    top: 100px;
+    right: 10px;
+    display: inline;
+}
+
+.indentificacao {
     display: inline;
 }
 
