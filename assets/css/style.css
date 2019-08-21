@@ -20,6 +20,15 @@
     bottom: 10px;
 }
 
+.sec{
+    border-width: 1px;
+    margin: 1px;
+    height: 25px;
+    position: relative;
+    
+
+}
+
 .caminho {
   position: absolute;
   left: 10px;
@@ -30,6 +39,16 @@
 
 }
 
+.thanos{
+    position: absolute;
+    right: 30px;
+
+}
+
+.img_thans{
+    height: 30px;
+    width: 30px;
+}
 
 /*categorias*/
 
