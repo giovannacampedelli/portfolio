@@ -20,7 +20,7 @@
     bottom: 10px;
 }
 
-.caminho{
+.caminho {
   position: absolute;
   left: 10px;
 }
@@ -32,9 +32,10 @@
 
 
 .itens {
-    background-color: grey;
+    background-color: red;
     display: inline;
 }
+
 .indentificacao {
     margin: 200px;
     height: 20px;
@@ -42,4 +43,29 @@
     top: 1px;
     right: 150px;
     display: inline;
+}
+
+
+/*projeto*/
+
+.title {
+  position: absolute;
+  left: 10px;
+  top: 115px;
+  width: 1024px;
+}
+
+.jogo-image {
+  position: absolute;
+  left: 10px;
+  top: 150px;
+  width: 400px;
+  height: 300px;
+}
+
+.jogo-text {
+  position: absolute;
+  left: 420px;
+  top: 150px;
+  width: 604px;
 }
