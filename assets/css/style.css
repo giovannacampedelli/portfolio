@@ -31,9 +31,15 @@
 }
 
 
-/*categorias*/
-
 .itens {
     background-color: grey;
+    display: inline;
+}
+.indentificacao {
+    margin: 200px;
+    height: 20px;
+    position: absolute;
+    top: 1px;
+    right: 150px;
     display: inline;
 }
