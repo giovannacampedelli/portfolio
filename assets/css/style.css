@@ -89,6 +89,7 @@
   width: 604px;
 }
 
+/*index*/
 .section-menu{
   position: absolute;
   border-style: solid; 
@@ -98,14 +99,14 @@
 
 .Thanos_index{
   position: absolute;
-  top: 150px;
+  top: 165px;
   left: 100px;
 }
 
 .title_index{
   position: absolute;
   left:300px;
-  top:110px;
+  top:130px;
 }
 
 .Thanos_index_img{
@@ -124,3 +125,9 @@
   width: 400px;
   left: 100px;
 }
+
+.index-text {
+  position: absolute;
+  left: 420px;
+  top: 165px;
+  width: 604px;
