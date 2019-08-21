@@ -53,12 +53,21 @@
 
 /*categorias*/
 
-.itens {
-    position: static;
-    top: 100px;
-    right: 10px;
-    display: inline;
+.section-title {
+  position: absolute;
+  left: 10px;
+  top: 200px;
+  width: 1024px;
+  height: 250px;
 }
+
+.itens {
+  display: inline-block;
+  position: relative;
+  width: 500px;
+  height: 250px;
+  background-color: gold;
+}   
 
 .indentificacao {
     display: inline;
@@ -66,7 +75,31 @@
 
 .sec-categorias{
     position: relative
+    top: 5px
+}
 
+.projetos-menu{
+      position: absolute;
+  left: 10px;
+  top: 280px;
+  width: 1024px;
+  text-align: left;
+}
+
+.itens-img{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 200px;
+  height: 250px;
+}
+
+.projeto-text{
+  position: absolute;
+  left: 210px;
+  top: 10px;
+  width: 250px;
+  height: 250px;
 }
 
 /*projeto*/
