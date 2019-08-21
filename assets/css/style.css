@@ -2,7 +2,7 @@
     border-style: solid;
     border-width: 1px;
     margin: 10px;
-    padding: 30px;
+    height: 70px;
     position: relative;
 }
 
@@ -20,11 +20,20 @@
     bottom: 10px;
 }
 
+.caminho{
+  position: absolute;
+  left: 10px;
+}
+
+.caminho_item {
+  display: inline;
+
+}
+
+
+/*categorias*/
+
 .itens {
     background-color: red;
     display: inline;
-}
-
-.caminho{
-	
 }
