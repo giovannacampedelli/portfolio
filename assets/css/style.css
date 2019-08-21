@@ -20,6 +20,15 @@
     bottom: 10px;
 }
 
+.sec{
+    border-width: 1px;
+    margin: 1px;
+    height: 25px;
+    position: relative;
+    
+
+}
+
 .caminho {
   position: absolute;
   left: 10px;
@@ -29,20 +38,26 @@
   display: inline;
 
 }
-.indentificacao {
-    margin: 200px;
-    height: 20px;
+
+.thanos{
     position: absolute;
-    top: 1px;
-    right: 150px;
+    right: 30px;
+
+}
+
+.img_thans{
+    height: 30px;
+    width: 30px;
+}
+
+.itens {
+    position: static;
+    top: 100px;
+    right: 10px;
     display: inline;
 }
 
-
-/*categorias*/
-
-.itens {
-    background-color: red;
+.indentificacao {
     display: inline;
 }
 
