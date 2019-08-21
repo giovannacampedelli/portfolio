@@ -20,11 +20,7 @@
     bottom: 10px;
 }
 
-.sec{
-    position: relative;
-}
-
-.caminho{
+.caminho {
   position: absolute;
   left: 10px;
 }
@@ -34,14 +30,35 @@
 
 }
 
-.title{
-    position: absolute;
-    top: 30px;
-}
 
 /*categorias*/
 
 .itens {
     background-color: red;
     display: inline;
+}
+
+
+/*projeto*/
+
+.title {
+  position: absolute;
+  left: 10px;
+  top: 115px;
+  width: 1024px;
+}
+
+.jogo-image {
+  position: absolute;
+  left: 10px;
+  top: 150px;
+  width: 400px;
+  height: 300px;
+}
+
+.jogo-text {
+  position: absolute;
+  left: 420px;
+  top: 150px;
+  width: 604px;
 }
