@@ -1,0 +1,79 @@
+{
+  "portfolio" : {
+    "digitais" : {
+      "categoria" : "Projetos de programacao",
+      "projetos" : {
+        "aplicativo" : {
+          "autores" : "Thanos Stark da Silva, Tico e Teco",
+          "descricao" : "Um prototipo de aplicativo que resolve um problema real de um grupo de usuarios",
+          "recursos" : "Desenvolvimento em HTML",
+          "titulo" : "Beta de frontend"
+        },
+        "jogo" : {
+          "autores" : "Thanos Stark da Silva, Tico e Teco",
+          "descricao" : "Jogo para computador baseado em Captura a Bandeira",
+          "recursos" : "Biblioteca Pygame",
+          "titulo" : "Capture the Flegg"
+        },
+        "portfolio" : {
+          "autores" : "Thanos Stark da Silva, Tico e Teco",
+          "descricao" : "Este projeto",
+          "recursos" : "HTML",
+          "titulo" : "Portfolio online de projetos"
+        }
+      }
+    },
+    "matematicaavancada" : {
+      "categoria" : "Projetos que envolvem analise de dados e modelagem",
+      "projetos" : {
+        "calculo" : {
+          "autores" : "Thanos Stark da Silva, Tico e Teco",
+          "descricao" : "Apresentacao de um conceito nao abordado em aula sobre derivadas e integrais",
+          "recursos" : "Livros, poster, Canvas",
+          "titulo" : "Poster matematica da variacao"
+        },
+        "estatistica" : {
+          "autores" : "Thanos Stark da Silva, Tico e Teco",
+          "descricao" : "Uma analise completa de dados especificos e reais",
+          "recursos" : "Biblioteca Pandas e dados na internet",
+          "titulo" : "Analise de Dados"
+        },
+        "modelagemfisica" : {
+          "autores" : "Thanos Stark da Silva, Tico e Teco",
+          "descricao" : "Projeto que buscava descrever o movimento de um pendulo balistico, respondendo perguntas norteadoras",
+          "recursos" : "Jupyter Notebook, dados da internet",
+          "titulo" : "Modelagem de um pendulo balistico"
+        }
+      }
+    },
+    "prototiposdedesigneeletronicos" : {
+      "categoria" : "Projetos de mecanica e eletronica",
+      "projetos" : {
+        "aceleradorpwm" : {
+          "autores" : "Thanos Stark da Silva, Tico e Teco",
+          "descricao" : "Um dispositivo para controlar um motor",
+          "recursos" : "Um PWM e um acelerador",
+          "titulo" : "PWM para motor eletrico"
+        },
+        "designambulantes" : {
+          "autores" : "Thanos Stark da Silva, Tico e Teco",
+          "descricao" : "Uma mesa desenvolvida para ajudar os vendedores ambulantes em suas rotinas de trabalho",
+          "recursos" : "Fusion 360 by Autodesk, MDF 3mm, aco, rolamentos, porcas, parafusos, maquinario do FabLab",
+          "titulo" : "Mesa cafe com bolo"
+        },
+        "estacaometeorologica" : {
+          "autores" : "Thanos Stark da Silva, Tico e Teco",
+          "descricao" : "Mini estacao que mede pressao, temperatura, umidade, luminosidade e a altitude do local",
+          "recursos" : "Eagle, Placa PCB, componentes eletronicos, Arduino, sensores, MDF 3mm e maquinario do FabLab",
+          "titulo" : "Prototipo de meteorologia"
+        },
+        "luminaria" : {
+          "autores" : "Thanos Stark da Silva, Tico e Teco",
+          "descricao" : "Luminaria em formato de girafa",
+          "recursos" : "Maquinario do FabLab, Fusion 360 by Autodesk, Eagle, MDF 6mm, filamento PLA 3mm, placa PCB e componentes eletronicos",
+          "titulo" : "Luminaria de Girafa"
+        }
+      }
+    }
+  }
+}
