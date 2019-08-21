@@ -20,6 +20,10 @@
     bottom: 10px;
 }
 
+.sec{
+    position: relative;
+}
+
 .caminho{
   position: absolute;
   left: 10px;
@@ -32,12 +36,12 @@
 
 .title{
     position: absolute;
-
+    top: 30px;
 }
 
 /*categorias*/
 
 .itens {
-    background-color: grey;
+    background-color: red;
     display: inline;
 }
