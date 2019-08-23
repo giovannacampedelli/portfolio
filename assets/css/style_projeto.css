@@ -1,29 +1,27 @@
 /*projeto*/
 
-
-
-
-
-
-
-/*.title {
-  position: absolute;
-  left: 10px;
-  top: 127px;
-  width: 1024px;
+.title{
+  font-size: 2rem;
 }
 
-.jogo-image {
-  position: absolute;
-  left: 10px;
-  top: 155px;
+.jogo-image{
   width: 400px;
   height: 300px;
+  max-width: 100%;
+  margin-left: 1rem;
+
+
 }
 
-.jogo-text {
-  position: absolute;
-  left: 420px;
-  top: 155px;
-  width: 604px;
-}*/
+.jogo-text{
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.game{
+  display: flex;
+  flex-direction: row
+  width: 70%;
+  margin-top: 1rem;
+
+}
