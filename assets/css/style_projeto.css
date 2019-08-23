@@ -1,0 +1,23 @@
+/*projeto*/
+
+.title {
+  position: absolute;
+  left: 10px;
+  top: 127px;
+  width: 1024px;
+}
+
+.jogo-image {
+  position: absolute;
+  left: 10px;
+  top: 155px;
+  width: 400px;
+  height: 300px;
+}
+
+.jogo-text {
+  position: absolute;
+  left: 420px;
+  top: 155px;
+  width: 604px;
+}
