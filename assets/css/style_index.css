@@ -1,42 +1,48 @@
 /*index*/
 .section-menu{
-  position: absolute;
-  border-style: solid; 
-  left: 420px;
-  top:190px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  background-color: gold;
+  justify-content: center;
+
+}
+
+.pai{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+
+.section-menu-item{
+
 }
 
 .Thanos_index{
-  position: absolute;
-  top: 165px;
-  left: 100px;
+
 }
 
 .title_index{
-  position: absolute;
-  left:300px;
-  top:130px;
+  
+
 }
 
 .Thanos_index_img{
-  position: absolute;
-  width: 300px;
-  height: 300px;
+  
+
 }
 
 .Perfil_index{
-  position: absolute;
-  top:470px;
+  
+
 }
 
 .apresentacao{
-  position: absolute;
-  width: 400px;
-  left: 100px;
+  
+
 }
 
 .index-text {
-  position: absolute;
-  left: 420px;
-  top: 165px;
-  width: 604px;
+  
+
+}
