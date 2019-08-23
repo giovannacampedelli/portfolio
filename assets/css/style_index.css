@@ -1,48 +1,44 @@
 /*index*/
-.section-menu{
-  border-style: solid;
-  border-width: 1px;
-  display: flex;
-  background-color: gold;
-  justify-content: center;
-
-}
-
-.pai{
-  display: flex;
-  justify-content: center;
-  background-color: red;
-}
-
-.section-menu-item{
-
-}
-
-.Thanos_index{
-
-}
-
 .title_index{
-  
-
+  justify-content: flex-start;
+  margin: 0.2rem;
+  padding: 1rem;
+  height: 1rem;
 }
 
-.Thanos_index_img{
-  
+.menu{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.2rem;
+  padding: 1rem;
+}
 
+.section-menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.index-text {  
+  flex-direction: row;
+  margin: 0.2rem;
+  height: 2rem;
+}
+
+.texto {
+  align-self: flex-start;
 }
 
 .Perfil_index{
-  
+  flex-direction: row;
+  flex-wrap: wrap;
 
 }
 
 .apresentacao{
-  
+  margin: 0.2rem;
+  padding: 1rem;
+  height: 1rem;
 
 }
 
-.index-text {
-  
-
-}
