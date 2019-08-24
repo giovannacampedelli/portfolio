@@ -1,40 +1,33 @@
+.menu {
+    justify-content: space-between;
+    display: flex;
+    margin: 0.5rem;
+    padding: 1rem;
+}   
+.grupos {
+    display: flex;
+    flex-flow: : column wrap;
+    justify-content: :flex-start;
+    background-color: blue;
+    width: 100%;
+}   
 .itens {
-  display: inline-block;
-  position: relative;
-  width: 500px;
-  height: 250px;
-  background-color: silver;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 50%;
+    margin: 0.5rem;
+    padding: 1rem;
+    
 }   
 
-.indentificacao {
-    display: inline;
+.foto_projeto {
+    width: 200px;
+    height: 150px;
+    max-width: 100%;
+    margin-left: 1rem;
 }
-
-.sec-categorias{
-    position: relative
-    top: 5px
-}
-
-.projetos-menu{
-      position: absolute;
-  left: 10px;
-  top: 280px;
-  width: 1024px;
-  text-align: left;
-}
-
-.itens-img{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 200px;
-  height: 250px;
-}
-
-.projeto-text{
-  position: absolute;
-  left: 210px;
-  top: 10px;
-  width: 250px;
-  height: 250px;
+.text{
+  font-size: 1rem;
+  margin-left: 0.5rem;
 }
