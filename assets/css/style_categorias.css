@@ -6,28 +6,26 @@
 }   
 .grupos {
     display: flex;
-    flex-flow: : column wrap;
-    justify-content: :flex-start;
-    background-color: blue;
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: white;
+    max-width: 100%;
 }   
 .itens {
     display: flex;
-    flex-wrap: wrap;
-    background-color: white;
-    width: 50%;
+    flex-flow: :wrap row-reverse;
+    align-items: stretch;
+    background-color: grey;
+    width: 40%;
     margin: 0.5rem;
     padding: 1rem;
     
-}   
+} 
+.texto{
+    margin-left: 0.5rem; 
+}  
 
-.foto_projeto {
-    width: 200px;
-    height: 150px;
-    max-width: 100%;
-    margin-left: 1rem;
+h3{
+    font-size: 2rem;
 }
-.text{
-  font-size: 1rem;
-  margin-left: 0.5rem;
-}
+
