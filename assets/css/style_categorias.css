@@ -13,7 +13,7 @@
 }   
 .itens {
     display: flex;
-    flex-flow: :wrap row-reverse;
+    flex-flow: wrap row-reverse;
     align-items: stretch;
     background-color: grey;
     width: 40%;
@@ -25,33 +25,7 @@
     margin-left: 0.5rem; 
 }  
 
-<<<<<<< HEAD
-.indentificacao {
-    display: inline;
-}
-
-.sec-categorias{
-    position: relative
-    top: 5px
-}
-
-.projetos-menu{
-  position: absolute;
-  left: 10px;
-  top: 280px;
-  width: 1024px;
-  text-align: left;
-}
-
-.itens-img{
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 200px;
-  height: 250px;
-=======
 h3{
     font-size: 2rem;
->>>>>>> 17e49af5fa54fa26130dadcdc3dbc7aeea17abdc
 }
 
