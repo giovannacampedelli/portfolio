@@ -1,3 +1,4 @@
+
 body {
     background-color: silver;
 }
@@ -8,6 +9,9 @@ body {
     display: flex;
     margin: 0.5rem;
     padding: 1rem;
+    font-family: 'Red Hat Text', sans-serif;
+
+
 }
 
 .logo {
@@ -32,6 +36,7 @@ body {
 .caminho {
  display: flex;
  align-items: center;
+ font-family: 'Sorts Mill Goudy', serif;
 }
 
 .caminho_item {
