@@ -13,7 +13,7 @@
 }   
 .itens {
     display: flex;
-    flex-flow: :wrap row-reverse;
+    flex-flow: wrap row-reverse;
     align-items: stretch;
     background-color: grey;
     width: 40%;
