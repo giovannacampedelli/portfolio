@@ -2,6 +2,7 @@
 
 .title{
   font-size: 2rem;
+  font-family: 'Red Hat Text', sans-serif;
 }
 
 .jogo-image{
@@ -21,5 +22,5 @@
   flex-direction: row
   width: 50%;
   margin-top: 1rem;
-
+  font-family: 'Sorts Mill Goudy', serif;
 }
