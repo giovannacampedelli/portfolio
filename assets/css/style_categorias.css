@@ -1,9 +1,19 @@
+.title{
+    font-size: 2rem;
+    font-family: 'Red Hat Text', sans-serif
+    margin-left: 0.5rem;
+  }
+.sub-title{
+    font-size: 1.2rem;
+    font-family: 'Sorts Mill Goudy', serif;
+    margin-left: 0.5rem;
+  }
 .menu {
     justify-content: space-between;
     display: flex;
     margin: 0.5rem;
     padding: 1rem;
-}   
+}    
 .grupos {
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +23,7 @@
 }   
 .itens {
     display: flex;
-    flex-flow: wrap row-reverse;
+    flex-flow: wrap row;
     align-items: stretch;
     background-color: grey;
     width: 40%;
@@ -27,8 +37,6 @@
 }  
 
 .texto2{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Red Hat Text', sans-serif;
 }
-
-    
