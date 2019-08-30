@@ -18,14 +18,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    background-color: white;
+    background-color: #f2f2f2 ;
     max-width: 100%;
 }   
 .itens {
     display: flex;
     flex-flow: wrap row;
     align-items: stretch;
-    background-color: grey;
+    background-color: #d9304f;
+    color: #f2f2f2;
     width: 40%;
     margin: 0.5rem;
     padding: 1rem;
@@ -39,4 +40,8 @@
 .texto2{
     font-size: 1.5rem;
     font-family: 'Red Hat Text', sans-serif;
+}
+
+.linkss {
+    color: #f2f2f2;
 }
