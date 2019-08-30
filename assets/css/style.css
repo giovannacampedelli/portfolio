@@ -1,11 +1,11 @@
 
 body {
-    background-color: silver;
+    background-color: #f2f2f2;
 }
 
 .header{
     justify-content: space-between;
-    background-color: white;
+    background-color: #a6142f;
     display: flex;
     margin: 0.5rem;
     padding: 1rem;
@@ -24,7 +24,7 @@ body {
 
 .sec{
     justify-content: space-between;
-    background-color: orange;
+    background-color: #f2f2f2 ;
     display: flex;
     margin: 0.2rem;
     padding: 1rem;
@@ -35,6 +35,11 @@ body {
  display: flex;
  align-items: center;
  font-family: 'Sorts Mill Goudy', serif;
+}
+
+.link{
+    color: #6a7329;
+    text-decoration: none;
 }
 
 .caminho_item {
