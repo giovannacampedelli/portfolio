@@ -23,6 +23,7 @@
   justify-content: center;
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 0.95rem;
+  margin-left: 2rem;
 }
 
 .index-text {  
@@ -35,6 +36,7 @@
   align-self: flex-start;
   font-family: 'Sorts Mill Goudy', sans-serif;
   font-size: 1.2rem;
+  margin-left: 2rem;
 }
 
 .Perfil_index{
@@ -51,3 +53,12 @@
 
 }
 
+.Thanos_index_img{
+  border-radius: 1rem;
+}
+
+.section-menu-item{
+  color: #6a7329 ;
+  font-weight: bold;
+  text-decoration: none;
+}
