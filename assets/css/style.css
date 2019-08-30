@@ -1,4 +1,3 @@
-
 body {
     background-color: #f2f2f2;
 }
@@ -55,4 +54,10 @@ body {
 .img_thans{
     height: 30px;
     width: 30px;
+    border-radius: 2rem;
+
 }
+
+    border-radius: 2rem;
+}
+
