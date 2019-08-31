@@ -30,7 +30,6 @@
     width: 40%;
     margin: 0.5rem;
     padding: 1rem;
-    
 } 
 .texto{
     margin-left: 0.5rem; 
@@ -44,5 +43,6 @@
 
 .linkss {
     color: #6a7329;
+    text-decoration: none;
 }
 
