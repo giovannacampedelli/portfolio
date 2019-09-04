@@ -1,4 +1,10 @@
-body {
+
+
+
+
+@media (min-width: 380px) {
+
+    body {
     background-color: #f2f2f2;
 }
 
@@ -57,7 +63,3 @@ body {
     border-radius: 2rem;
 
 }
-
-    border-radius: 2rem;
-}
-

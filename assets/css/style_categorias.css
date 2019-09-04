@@ -1,12 +1,47 @@
+.picproj{
+  visibility: hidden;
+  position: absolute;
+}
+.titulo{
+  flex-wrap: column;
+  margin-left: 2rem;
+}
+.title{
+  font-size: 2rem;
+  font-family: 'Red Hat Text', sans-serif
+}
+.sub-title{
+    font-size: 1.2rem;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+.menu {
+}    
+.grupos {
+}   
+.itens {
+} 
+.texto{
+}  
+.texto2{
+}
+
+.linkss {
+}
+
+
+
+
+
+
+@media(min-width: 415px){
 .title{
     font-size: 2rem;
     font-family: 'Red Hat Text', sans-serif
-    margin-left: 0.5rem;
   }
 .sub-title{
     font-size: 1.2rem;
     font-family: 'Sorts Mill Goudy', serif;
-    margin-left: 0.5rem;
+    margin-left: 3.1rem;
   }
 .menu {
     justify-content: space-between;
@@ -46,3 +81,7 @@
     text-decoration: none;
 }
 
+h1 {
+      margin-left: 3rem;
+}
+}
