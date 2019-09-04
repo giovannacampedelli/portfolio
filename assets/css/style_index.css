@@ -1,5 +1,34 @@
 /*index*/
-.title_index{
+
+.jaca{
+  display: flex;
+  background-color: gold;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.Thanos_index{
+  display: flex;
+}
+
+.Thanos_index_img{
+  border-radius: 3rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+  .title_index{
+  margin: 0.2rem;
+  margin-left: 4rem;
+  padding: 2rem;
+  height: 1rem;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media (min-width: 380px){
+  .title_index{
   justify-content: flex-start;
   margin: 0.2rem;
   padding: 1rem;
@@ -61,4 +90,8 @@
   color: #6a7329 ;
   font-weight: bold;
   text-decoration: none;
+}
+
+
+
 }
