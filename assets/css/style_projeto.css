@@ -1,47 +1,5 @@
 /*projeto*/
 
-.title{
-    background-color: #a6142f;
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
-    font-family: 'Red Hat Text', sans-serif;
-    font-weight: bold;
-  }
-
-.jogo-image{
-    align-items: center;
-    justify-content: center;
-    border-radius: 2rem;
-  }
-.jogo-text{
-    font-size: 1rem;
-    margin-left: 0.5rem;
-    font-family: 'Sorts Mill Goudy', serif;
-    margin-left: 2rem; 
-
-.game{
-    display: flex;
-    flex-direction: row
-    width: 50%;
-    margin-top: 1rem;
-  }
-
-.descricao_proj{
-    font-weight: bold;
-  }
-
-.autores_proj{
-    font-weight: bold;
-  }
-
-.recursos_proj{
-    font-weight: bold;
-  }
-
-
-@media (min-width: 380px) {
-
   .title{
     justify-content: flex-start;
     margin: 0.2rem;
@@ -69,12 +27,12 @@
 
   .game{
     display: flex;
-    flex-direction: row
+    flex-direction: row;
     width: 50%;
     margin-top: 1rem;
   }
 
-  .decrcao_proj{
+  .descricao_proj{
     font-weight: bold;
   }
 
@@ -85,4 +43,50 @@
   .recursos_proj{
     font-weight: bold;
   }
+
+
+
+@media (max-width: 381px) {
+  .title{
+    background-color: #a6142f;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+  }
+
+.jogo-image{
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
+
+.jogo-text{
+    font-size: 1rem;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+.game{
+    background-color: #a6142f;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 1rem;
+  }
+
+.descricao_proj{
+    font-weight: bold;
+  }
+
+.autores_proj{
+    font-weight: bold;
+  }
+
+.recursos_proj{
+    font-weight: bold;
+  }
+
+
 }
