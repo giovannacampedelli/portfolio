@@ -1,32 +1,55 @@
 /*index*/
-/*
-.jaca{
-  display: flex;
-  background-color: gold;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-}
 
 .Thanos_index{
   display: flex;
 }
 
-.Thanos_index_img{
-  border-radius: 3rem;
-  height: 4rem;
-  width: 4rem;
+.menu{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
 }
 
-  .title_index{
-  margin: 0.2rem;
-  margin-left: 4rem;
+.Thanos_index_img{
+  border-radius: 3rem;
+  height: 6rem;
+  width: 6rem;
+}
+
+.title_index{
+  display: flex;
   padding: 2rem;
   height: 1rem;
   font-family: 'Red Hat Text', sans-serif;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: bold;
+  justify-content: center;
 }
-*/
+
+.Perfil_index{
+  display: flex;
+  margin: 0.5rem;
+  justify-content: center;
+}
+
+.section-menu{
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 0.95rem;
+  padding: 0.5rem;
+}
+
+.section-menu-item{
+  color: #6a7329 ;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem
+}
+
+.index-text{
+     padding: 1rem;
+}
+
 
 @media (min-width: 380px){
   .title_index{
@@ -84,6 +107,8 @@
 }
 
 .Thanos_index_img{
+  height: 15rem;
+  width: 15rem;
   border-radius: 1rem;
 }
 
