@@ -20,7 +20,6 @@
 
   .jogo-text{
     font-size: 1rem;
-    margin-left: 0.5rem;
     font-family: 'Sorts Mill Goudy', serif;
     margin-left: 2rem; 
 }
@@ -48,7 +47,6 @@
 
 @media (max-width: 381px) {
   .title{
-    background-color: #a6142f;
     display: flex;
     justify-content: center;
     font-size: 2rem;
@@ -62,19 +60,22 @@
     display: flex;
     justify-content: center;
     align-self: center;
+    max-width: 95%;
+    margin-left: 0rem;
   }
 
 .jogo-text{
     font-size: 1rem;
     font-family: 'Sorts Mill Goudy', serif;
+    margin-top: 1rem;
+
 }
 
 .game{
-    background-color: #a6142f;
     display: flex;
     flex-direction: column;
-    width: 50%;
     margin-top: 1rem;
+    width: 100%;
   }
 
 .descricao_proj{
@@ -83,10 +84,12 @@
 
 .autores_proj{
     font-weight: bold;
+    margin-top: 0.5rem;
   }
 
 .recursos_proj{
     font-weight: bold;
+    margin-top: 0.5rem;
   }
 
 
