@@ -60,8 +60,6 @@
 .index-text {  
   display: flex;
   flex-direction: column;
-  background-color: gold;
-  flex-direction: row;
   margin: 0.2rem;
   height: 2rem;
 }
