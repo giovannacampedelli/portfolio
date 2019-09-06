@@ -1,5 +1,5 @@
 /*index*/
-
+/*
 .jaca{
   display: flex;
   background-color: gold;
@@ -26,6 +26,7 @@
   font-size: 1rem;
   font-weight: bold;
 }
+*/
 
 @media (min-width: 380px){
   .title_index{
@@ -41,6 +42,7 @@
 .menu{
   display: flex;
   justify-content: flex-start;
+  flex-direction: row;
   margin: 0.2rem;
   padding: 1rem;
 
@@ -56,6 +58,9 @@
 }
 
 .index-text {  
+  display: flex;
+  flex-direction: column;
+  background-color: gold;
   flex-direction: row;
   margin: 0.2rem;
   height: 2rem;
@@ -71,7 +76,6 @@
 .Perfil_index{
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 .apresentacao{
@@ -79,7 +83,6 @@
   padding: 1rem;
   height: 1rem;
   font-family: 'Sorts Mill Goudy', serif;
-
 }
 
 .Thanos_index_img{
@@ -90,8 +93,4 @@
   color: #6a7329 ;
   font-weight: bold;
   text-decoration: none;
-}
-
-
-
 }
