@@ -68,8 +68,7 @@
     font-size: 1rem;
     font-family: 'Sorts Mill Goudy', serif;
     margin-top: 1rem;
-
-}
+  }
 
 .game{
     display: flex;
@@ -91,6 +90,4 @@
     font-weight: bold;
     margin-top: 0.5rem;
   }
-
-
 }

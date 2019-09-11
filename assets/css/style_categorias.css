@@ -50,37 +50,21 @@ h1 {
 
 @media(max-width: 415px){
 
-.picproj{
-  visibility: hidden;
-  position: absolute;
-}
-.titulo{
-  flex-wrap: column;
-  margin-top: 1rem;
-}
+  .picproj{
+    visibility: hidden;
+    position: absolute;
+  }
+  .titulo{
+    flex-wrap: column;
+    margin-top: 1rem;
+  }
 
-.title{
-  font-size: 2rem;
-  font-family: 'Red Hat Text', sans-serif
-}
+  .title{
+    font-size: 2rem;
+    font-family: 'Red Hat Text', sans-serif
+  }
 
-h1 {
-      margin-left: 1rem;
-}
-
-}
-.menu {
-}    
-.grupos {
-}   
-.itens {
-} 
-.texto{
-}  
-.texto2{
-}
-
-.linkss {
-}
-
+  h1 {
+        margin-left: 1rem;
+  }
 }

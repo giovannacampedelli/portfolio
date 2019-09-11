@@ -62,67 +62,67 @@
 
 @media (min-width: 380px){
   .title_index{
-  justify-content: flex-start;
-  margin: 0.2rem;
-  padding: 1rem;
-  height: 1rem;
-  font-family: 'Red Hat Text', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-}
+    justify-content: flex-start;
+    margin: 0.2rem;
+    padding: 1rem;
+    height: 1rem;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+  }
 
-.menu{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  margin: 0.2rem;
-  padding: 1rem;
+  .menu{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 0.2rem;
+    padding: 1rem;
+  }
 
-}
+  .section-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 0.95rem;
+    margin-left: 2rem;
+  }
 
-.section-menu{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: 'Sorts Mill Goudy', serif;
-  font-size: 0.95rem;
-  margin-left: 2rem;
-}
+  .index-text {  
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem;
+    height: 2rem;
+  }
 
-.index-text {  
-  display: flex;
-  flex-direction: column;
-  margin: 0.2rem;
-  height: 2rem;
-}
+  .texto {
+    align-self: flex-start;
+    font-family: 'Sorts Mill Goudy', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+  }
 
-.texto {
-  align-self: flex-start;
-  font-family: 'Sorts Mill Goudy', sans-serif;
-  font-size: 1.2rem;
-  margin-left: 2rem;
-}
+  .Perfil_index{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-.Perfil_index{
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+  .apresentacao{
+    margin: 0.2rem;
+    padding: 1rem;
+    height: 1rem;
+    font-family: 'Sorts Mill Goudy', serif;
+  }
 
-.apresentacao{
-  margin: 0.2rem;
-  padding: 1rem;
-  height: 1rem;
-  font-family: 'Sorts Mill Goudy', serif;
-}
+  .Thanos_index_img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1rem;
+  }
 
-.Thanos_index_img{
-  height: 15rem;
-  width: 15rem;
-  border-radius: 1rem;
-}
-
-.section-menu-item{
-  color: #6a7329 ;
-  font-weight: bold;
-  text-decoration: none;
+  .section-menu-item{
+    color: #6a7329 ;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
