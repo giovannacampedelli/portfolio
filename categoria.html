@@ -40,6 +40,7 @@
               </div>
           <section class= "menu">
             <ul class="grupos">
+              
               <li class="itens" >
                 <img class= "picproj" src="https://picsum.photos/100/50/?random" alt="foto do projeto" width="320" height="205">
                 <div>
@@ -49,28 +50,27 @@
                   </p>
                 </div>    
               </li>
+          
 
-              <li class="itens">
-                <img class= "picproj" src="https://picsum.photos/100/50/?random" alt="foto do projeto" width="320" height="205">
-                <div>
-                  <h3 class = "texto2"><a class = "linkss" href="projeto.html"> Jogo </a></h3>
-                  <p class = "texto">
-                    Insira aqui a introducao do projeto
-                  </p>
-                </div>    
-              </li>
 
-            <li class="itens">
-                <img class= "picproj" src="https://picsum.photos/100/50/?random" alt="foto do projeto" width="320" height="205">
-                <div>
-                  <h3 class = "texto2"><a class = "linkss" href="projeto.html"> Portfolio</a></h3>
-                  <p class = "texto">
-                    Insira aqui a introducao do projeto
-                  </p>
-                </div>    
-              </li>
           </ul>
 
       </main>
   </body>
   </html>
+
+
+{{#each bigfour}}
+        <li>
+          <p>
+            <strong>Chave:</strong> {{@key}}
+          </p>
+          <p>
+            <strong>Valor:</strong> {{this}}
+          </p>
+          <p>
+            <strong>Campo "nome" do valor:</strong> {{this.nome}}
+          </p>
+          <p>
+            <strong>Campo "numSlams" do valor:</strong> {{this.numSlams}}
+          </p>
