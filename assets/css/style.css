@@ -11,7 +11,7 @@ body {
     font-family: 'Red Hat Text', sans-serif;
 }
 
-.menu-figure {
+.menu-figure img{
     display: block;
     width: 50px;
     height: 50px;
@@ -48,6 +48,37 @@ body {
     height: 35px;
     width: 35px;
     border-radius: 2rem;
+}
+
+
+.app_item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.menu-figure:hover .app_menu{
+    display: block;
+    right: 0;
+}
+
+.link {
+    padding: 1rem;
+    transition: background-color .25s, color .25s;
+}
+
+.link:hover {
+    background-color: #00FF00;
+    color: #000000;
+}
+
+.app_menu{
+    position: absolute;
+    top: 3rem;
+    right: -24rem;
+    width: 100%;
+    border: 1px solid #00FF00;
+    background-color: #000000;
+    display: none;
 }
 
 @media (min-width: 380px) {
@@ -115,3 +146,6 @@ body {
     .menu-figure {
         display: none;
     }
+
+
+}
