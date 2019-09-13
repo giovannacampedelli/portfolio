@@ -22,7 +22,7 @@
     font-size: 1rem;
     font-family: 'Sorts Mill Goudy', serif;
     margin-left: 2rem; 
-}
+  }
 
   .game{
     display: flex;
@@ -54,7 +54,7 @@
     font-weight: bold;
   }
 
-.jogo-image{
+  .jogo-image{
 
     border-radius: 2rem;
     display: flex;
@@ -64,30 +64,31 @@
     margin-left: 0rem;
   }
 
-.jogo-text{
+  .jogo-text{
     font-size: 1rem;
     font-family: 'Sorts Mill Goudy', serif;
     margin-top: 1rem;
   }
 
-.game{
+  .game{
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
     width: 100%;
   }
 
-.descricao_proj{
+  .descricao_proj{
     font-weight: bold;
   }
 
-.autores_proj{
+  .autores_proj{
     font-weight: bold;
     margin-top: 0.5rem;
   }
 
-.recursos_proj{
+  .recursos_proj{
     font-weight: bold;
     margin-top: 0.5rem;
   }
+
 }
