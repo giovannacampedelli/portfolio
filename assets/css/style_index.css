@@ -35,15 +35,15 @@
 
 .section-menu{
   font-family: 'Sorts Mill Goudy', serif;
-  font-size: 0.95rem;
+  font-size: 1.3rem;
   padding: 0.5rem;
+  line-height: 150%; 
 }
 
 .section-menu-item{
   color: #6a7329 ;
   font-weight: bold;
   text-decoration: none;
-  font-size: 1.1rem
 }
 
 .texto{
@@ -58,9 +58,13 @@
    display: none;
 }
 
+.Perfil_index{
+  display: flex;
+  font-size: 1.3rem; 
+}
 
 
-@media (min-width: 380px){
+@media (min-width: 415px){
   .title_index{
     justify-content: flex-start;
     margin: 0.2rem;
