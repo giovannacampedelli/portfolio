@@ -45,7 +45,7 @@
 
 
 
-@media (max-width: 381px) {
+@media (min-width: 415px) {
   .title{
     display: flex;
     justify-content: center;

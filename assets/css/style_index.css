@@ -31,6 +31,8 @@
   display: flex;
   margin: 0.5rem;
   justify-content: center;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .section-menu{
@@ -60,7 +62,14 @@
 
 .Perfil_index{
   display: flex;
+  flex-direction: column;
   font-size: 1.3rem; 
+}
+
+.info{
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 150%;
 }
 
 
@@ -107,11 +116,15 @@
   }
 
   .Perfil_index{
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
   .apresentacao{
+    text-align: justify;
+    text-justify: inter-word;
     margin: 0.2rem;
     padding: 1rem;
     height: 1rem;
@@ -128,5 +141,14 @@
     color: #6a7329 ;
     font-weight: bold;
     text-decoration: none;
+  }
+  .info{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 150%;
+    margin: 0.2rem;
+    padding: 1rem;
+    height: 1rem;
+    font-family: 'Sorts Mill Goudy', serif;
   }
 }
