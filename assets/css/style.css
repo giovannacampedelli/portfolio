@@ -47,7 +47,7 @@ body {
 .sidebar {
   position: absolute;
   top: 0.5rem;
-  left: -200px;
+  right: -200px;
   height: 81vh;
   width: 150px;
   display: block;
@@ -78,9 +78,10 @@ body {
 } 
 
 .sidebar:hover {
-  left: 0;
+  right: 0;
   transition: all 0.5s;
 } 
+
 
 .link2{
     padding: 1rem;
