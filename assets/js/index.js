@@ -1,14 +1,15 @@
+	console.log(`oi`)
 document.addEventListener('DOMContentLoaded', function() {
-
+	
 	let params = coDesExtract()
 	console.log(params)
-	
-	let db = coDesConnect('https://avengers-2.firebaseio.com/')
 
-	let location {
-    origin: "pagina_principal", }
-	
-	console.log(window.location)
+  	let db = coDesConnect('https://avengers-2.firebaseio.com/')
+  	console.log(db)
+  	db.download('/portfolio', function(data) {
 
-/*nao colocar nada depois dessa chave */
+	    for(let key in data) {
+	      console.log(data[key])
+	    }
+	  })
 })
