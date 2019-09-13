@@ -11,12 +11,6 @@ body {
     font-family: 'Red Hat Text', sans-serif;
 }
 
-.menu-figure img{
-    display: block;
-    width: 50px;
-    height: 50px;
-}
-
 .logo {
     width: 80px;
     height: 50px;
@@ -50,38 +44,56 @@ body {
     border-radius: 2rem;
 }
 
+.sidebar {
+  position: absolute;
+  top: 0.5rem;
+  left: -200px;
+  height: 81vh;
+  width: 150px;
+  display: block;
+  background-color: #000;
+  transition: all 0.5s;
+}
 
 .app_item {
     position: relative;
     flex-grow: 1;
 }
 
-.menu-figure:hover .app_menu{
+.menu-figure img{
     display: block;
-    right: 0;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    cursor: pointer;
 }
 
-.link {
+.menu-figure:hover {
+  transition: all 0.5s;
+}
+
+.menu-figure:hover + .sidebar{
+  right: 0;
+  transition: all 0.5s;
+} 
+
+.sidebar:hover {
+  left: 0;
+  transition: all 0.5s;
+} 
+
+.link2{
     padding: 1rem;
     transition: background-color .25s, color .25s;
 }
 
-.link:hover {
+.link2:hover {
     background-color: #00FF00;
     color: #000000;
 }
 
-.app_menu{
-    position: absolute;
-    top: 3rem;
-    right: -24rem;
-    width: 100%;
-    border: 1px solid #00FF00;
-    background-color: #000000;
-    display: none;
-}
 
-@media (min-width: 380px) {
+@media (min-width: 415px) {
 
     body {
         background-color: #f2f2f2;
@@ -123,6 +135,7 @@ body {
     }
 
     .link{
+        display: inline;
         color: #6a7329;
         text-decoration: none;
     }
@@ -144,6 +157,17 @@ body {
     }
 
     .menu-figure {
+        display: none;
+    }
+
+    .app_menu{
+        display: none;
+    }
+
+    .sidebar{
+         display: none;
+    }
+    .link2{
         display: none;
     }
 
