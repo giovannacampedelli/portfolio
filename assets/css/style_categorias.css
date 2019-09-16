@@ -48,12 +48,32 @@ h1 {
 }
 
 
+
 @media(min-width:415px){
 
+
+
   .picproj{
-    visibility: hidden;
+    display: block;
     position: absolute;
   }
+
+  .texto{
+    display: block;
+    margin-left: 0.5rem; 
+    font-family: 'Sorts Mill Goudy', serif;
+  }  
+
+  .texto2{
+      font-size: 1.5rem;
+      font-family: 'Red Hat Text', sans-serif;
+  }
+
+  .linkss {
+      color: #6a7329;
+      text-decoration: none;
+  }
+
   .titulo{
     flex-wrap: column;
     margin-top: 1rem;

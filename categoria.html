@@ -9,6 +9,8 @@
     <link href="assets/css/style_categorias.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="utf-8"/>
+    <script src="assets/js/geral.js"></script>
+    <script src="assets/js/categoria.js"></script>
   </head>
   <body>
       <header class ="header" >
@@ -57,11 +59,15 @@
         </div>
         <section class= "menu">
             <ul class="grupos">
+              {{#each portfolio}}
               
               <li class="itens" >
+
                 <img class = "picproj" src= "assets/img/capturethefleeg.jpg" width="320" height="205" alt= "Imagem de abertura do jogo com dragões">
                 <div>
-                  <h3 class = "texto2"><a class = "linkss" href="projeto.html"> Capture the Flegg </a> </h3>
+                  <h3 class = "texto2">
+                    <a class = "linkss" href="projeto.html"> Capture the Flegg </a> 
+                  </h3>
                   <p class = "texto">
                     Jogo para computador baseado em Captura a Bandeira 
                   </p>
