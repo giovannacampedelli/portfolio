@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta charset="utf-8"/>
     <script src="assets/js/geral.js"></script>
-    <script src="assets/js/categoria.js"></script>
+    <script src="assets/js/categorias.js"></script>
   </head>
   <body>
       <header class ="header" >
@@ -54,29 +54,31 @@
         </section>
         
         <div class = "titulo">
-            <h1 class= "title"> Categoria:</h1> 
-            <h1 class= "title"> Projetos digitais</h1>
+            <h1 class= "title_2"> Categoria:</h1> 
+            <h1 class= "title_2"> Projetos digitais</h1>
         </div>
         <section class= "menu">
+                                                                  
             <ul class="grupos">
-              {{#each portfolio}}
+              {{#each digitais}}
               
-              <li class="itens" >
+                <li class="itens" >
+                  <div>
+                    <h3 class = "texto2">
+                      <a class = "linkss" href="projeto.html"> {{this.projetos}} </a>
 
-                <img class = "picproj" src= "assets/img/capturethefleeg.jpg" width="320" height="205" alt= "Imagem de abertura do jogo com dragões">
-                <div>
-                  <h3 class = "texto2">
-                    <a class = "linkss" href="projeto.html"> Capture the Flegg </a> 
-                  </h3>
-                  <p class = "texto">
-                    Jogo para computador baseado em Captura a Bandeira 
-                  </p>
-                </div>    
-              </li>
-          
+                    </h3>
+              {{/each}} 
+                    <p class = "texto">{{full_secao}}                
+                    </p>
 
+                  </div>
 
-          </ul>
+                  <img class = "picproj" src= "assets/img/{{this.imagem}}" width="320" height="205" alt= "Imagem de abertura do jogo com dragões">
+                      
+                </li>     
+
+            </ul>
 
       </main>
   </body>
