@@ -48,8 +48,8 @@ body {
   position: fixed;
   top: 0.5rem;
   right: -200px;
-  height: 81vh;
-  width: 150px;
+  height: 90vh;
+  width: 200px;
   display: block;
   background-color: #6a7329;
   transition: all 0.5s;
@@ -58,6 +58,7 @@ body {
 .app_item {
     position: relative;
     flex-grow: 1;
+    line-height: 200%;
 }
 
 .menu-figure img{
