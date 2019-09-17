@@ -5,5 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
   db.download('/', function(data) {
   	console.log(data)
     coDesReplace('.section-menu', data)
+    coDesReplace('.app_menu', data)
   })
 })

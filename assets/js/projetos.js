@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   let db = coDesConnect('https://avengers-2.firebaseio.com/')
 
   db.download('/', function(data) {
+  	coDesReplace('.app_menu', data)
     
     context = data['portfolio'][value1]['projetos'][value2]
     console.log(context)

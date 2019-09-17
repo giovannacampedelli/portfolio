@@ -23,17 +23,23 @@
             	<img src= "assets/img/menu_icone.jpg" alt= "Ícone menu">
             </a>
             <section class="sidebar">
+					Categorias:
             	<ul class="app_menu">
+              		{{#each portfolio}}
               		<li class="app_item">
-                		<a class="link2" href= "index.html"> Perfil </a>
+                  		<a class="link2" href="categoria.html?key={{@key}}">{{this.categoria}}</a>
               		</li>
+              		{{/each}}
+
+              		Projetos:
+              		{{#each portfolio}}
+              		{{#each this.projetos}}
               		<li class="app_item">
-               			<a class="link2" href= "categoria.html"> Digitais </a>
+                  		<a class="link2" href="projeto.html?key={{portfolio}}&chave={{@key}}">{{this.titulo}}</a>
               		</li>
-              		<li class="app_item">
-                		<a class="link2" href= "projeto.html">Jogo</a>
-              		</li>
-            	</ul>
+              		{{/each}}
+              		{{/each}}
+              	</ul>
        		</section> 
            
 		</header>
