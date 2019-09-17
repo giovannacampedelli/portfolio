@@ -92,7 +92,7 @@ body {
 
 .link2:hover {
     background-color: #d9304f;
-    color: #6a7329;
+    color: black;
 }
 
 @media (min-width: 415px) {
