@@ -1,50 +1,59 @@
 
 .title_2{
-    font-size: 1.5rem;
-    font-family: 'Red Hat Text', sans-serif
+  font-size: 1.5rem;
+  font-family: 'Red Hat Text', sans-serif
   }
 
 .menu {
-    justify-content: space-between;
-    display: flex;
-    margin: 0.5rem;
-    padding: 1rem;
+  justify-content: space-between;
+  display: flex;
+  margin: 0.5rem;
+  padding: 1rem;
 } 
 
 .grupos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    background-color: #f2f2f2 ;
-    max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: #f2f2f2 ;
+  max-width: 100%;
 }   
+
 .itens {
-    display: flex;
-    flex-flow: wrap row;
-    align-items: stretch;
-    background-color: #f2f2f2;
-    color: #6a7329;
-    width: 40%;
-    margin: 0.5rem;
-    padding: 1rem;
+  display: flex;
+  flex-flow: wrap row;
+  align-items: stretch;
+  background-color: #f2f2f2;
+  color: #6a7329;
+  margin: 0.5rem;
+  padding: 1rem;
 } 
+
 .texto{
-    margin-left: 0.5rem; 
-    font-family: 'Sorts Mill Goudy', serif;
+  margin-left: 0.5rem; 
+  line-height: 130%;
+  font-family: 'Sorts Mill Goudy', serif;
 }  
 
 .texto2{
-    font-size: 1.5rem;
-    font-family: 'Red Hat Text', sans-serif;
+  font-size: 1.5rem;
+  font-family: 'Red Hat Text', sans-serif;
+  line-height: 130%;
 }
 
 .linkss {
-    color: #6a7329;
-    text-decoration: none;
+  color: #6a7329;
+  text-decoration: none;
+}
+
+.picproj{
+  display: flex;
+  width: 15rem;
+  height: 10rem;
 }
 
 h1 {
-      margin-left: 3rem;
+  margin-left: 3rem;
 }
 
 @media(min-width:415px){
@@ -65,7 +74,7 @@ h1 {
     width: 40%;
     margin: 0.5rem;
     padding: 1rem;
-} 
+  } 
 
   .picproj{
     display: flex;
