@@ -47,26 +47,43 @@ h1 {
       margin-left: 3rem;
 }
 
-
-
 @media(min-width:415px){
 
+  .menu{
+    display: flex;
+  }
 
+  .grupos{
+    justify-content: space-around;
+  }
+
+  .itens {
+    display: flex;
+    background-color: #f2f2f2;
+    flex-flow: row nowrap;
+    color: #6a7329;
+    width: 40%;
+    margin: 0.5rem;
+    padding: 1rem;
+} 
 
   .picproj{
-    display: block;
-    position: absolute;
+    display: flex;
+    width: 15rem;
+    height: 10rem;
   }
 
   .texto{
     display: block;
-    margin-left: 0.5rem; 
+    margin: 0px;
+    line-height: 130%;
     font-family: 'Sorts Mill Goudy', serif;
   }  
 
   .texto2{
       font-size: 1.5rem;
       font-family: 'Red Hat Text', sans-serif;
+      line-height: 130%;
   }
 
   .linkss {
