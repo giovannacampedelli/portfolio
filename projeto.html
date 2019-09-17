@@ -10,6 +10,9 @@
 		<link href= "assets/css/style_projeto.css" rel= "stylesheet">
 		<meta charset= "utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
+				<link href="assets/css/style_index.css" rel="stylesheet">
+		<script src="assets/js/geral.js"></script>
+		<script src="assets/js/projetos.js"></script>
 	</head>
 
 	<body>
@@ -86,24 +89,18 @@
 				<h1 class= "title"> {{this.titulo}} </h1>	
 
 				<div class ="game">
-					<img class = "jogo-image" src= "assets/img/capturethefleeg.jpg" width= "250" height= "200" alt= "Imagem de abertura do jogo com dragões">
+					<img class = "jogo-image" src= "assets/img/{{this.imagem}}" width= "250" height= "200" alt= "imagem de {{this.titulo}}">
 
 					<div class = "jogo-text">	
 
 						<h2 class="descricao_proj"> Descrição </h2> 
-						<p> 
-							Jogo para computador baseado em Captura a Bandeira 
-						</p>
+						<p> {{this.descricao}} </p>
 
 						<h2 class="autores_proj">Autores</h2> 
-						<p> 
-							Thanos Stark da Silva, Tico e Teco
-						</p>
+						<p> {{this.autores}} </p>
 
 						<h2 class="recursos_proj">Recursos</h2> 
-						<p> 
-							Biblioteca pygame
-						</p>
+						<p> {{this.recursos}} </p>
 					</div>
 				</div>
 
