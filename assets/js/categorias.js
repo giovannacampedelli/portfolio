@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
     context = data['biblioteca'][value]
     coDesReplace('title', context)
 
+    context = data['biblioteca'][value]
+    coDesReplace('title_2', context)
+
     context = data
     coDesReplace('.grupos', context)
 
@@ -27,6 +30,6 @@ document.addEventListener('DOMContentLoaded', function() {
     coDesReplace('.texto', context)
 
     context = data['biblioteca'][value]
-    coDesReplace('.book-list', context)
+    coDesReplace('.caminho', context)
   })
 })
