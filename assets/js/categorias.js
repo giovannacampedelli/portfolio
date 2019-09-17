@@ -17,17 +17,22 @@ document.addEventListener('DOMContentLoaded', function() {
       vai se arrepender. Você foi avisado.
     */
 
+    
     context = data['portfolio'][value]
+    console.log(context)
     coDesReplace('.grupos', context)
 
 
     coDesReplace('.title_2', context)
 
     context = data
-    coDesReplace('.grupos', context)
 
     context = data['portfolio'][value]
     coDesReplace('.caminho_item', context)
+
+    coDesReplace('.link_', context)
+
+    coDesReplace('title', context)
 
   })
 })
