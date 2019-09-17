@@ -9,6 +9,7 @@
     font-family: 'Red Hat Text', sans-serif;
     font-weight: bold;
   }
+  .vazio{  }
 
   .jogo-image{
     width: 400px;
@@ -56,7 +57,7 @@
     font-family: 'Red Hat Text', sans-serif;
     font-weight: bold;
   }
-
+  .vazio{  }
   .jogo-image{
 
     border-radius: 2rem;

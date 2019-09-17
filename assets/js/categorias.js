@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     
     context = data['portfolio'][value]
+    context["catid"] = value
     console.log(context)
     coDesReplace('.grupos', context)
 
@@ -28,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     context = data
 
     context = data['portfolio'][value]
+
     coDesReplace('.caminho_item', context)
 
     coDesReplace('.link_', context)
