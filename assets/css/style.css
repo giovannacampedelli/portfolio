@@ -45,7 +45,7 @@ body {
 }
 
 .sidebar {
-  position: absolute;
+  position: fixed;
   top: 0.5rem;
   right: -200px;
   height: 81vh;
