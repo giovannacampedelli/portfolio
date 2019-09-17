@@ -17,19 +17,17 @@ document.addEventListener('DOMContentLoaded', function() {
       vai se arrepender. Você foi avisado.
     */
 
-    context = data['biblioteca'][value]
-    coDesReplace('title', context)
+    context = data['portfolio'][value]
+    coDesReplace('.grupos', context)
 
-    context = data['biblioteca'][value]
-    coDesReplace('title_2', context)
+
+    coDesReplace('.title_2', context)
 
     context = data
     coDesReplace('.grupos', context)
 
-    context = data['biblioteca'][value]
-    coDesReplace('.texto', context)
+    context = data['portfolio'][value]
+    coDesReplace('.caminho_item', context)
 
-    context = data['biblioteca'][value]
-    coDesReplace('.caminho', context)
   })
 })

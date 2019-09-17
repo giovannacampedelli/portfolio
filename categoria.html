@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>{{this.categoria}}</title>
+    <title>{{fullcategoria}}</title>
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Text&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet"> 
     <link href="assets/css/reset.css" rel="stylesheet">
@@ -40,14 +40,14 @@
        
         <section class = "sec">
             <ul class = "caminho">
-              {{#each portfolio}}
+              
 
               <li class= "caminho_item"><a class = "link" href= "index.html">Perfil</a></li>
               <li class ="caminho_item"> >> </li>
               <li class= "caminho_item"><a a class = "link" href= "categoria.html"> {{this.categoria}} </a></li>
               <li class ="caminho_item"> >> </li>
 
-              {{/each}}
+            
             </ul>
 
             <div class = "thanos">
@@ -59,33 +59,34 @@
         
         <div class = "titulo">
 
-          {{#each portfolio}}
+          
             <h1 class= "title_2"> Categoria:</h1> 
             <h1 class= "title_2"> {{this.categoria}} </h1>
-          {{each}}
+          
 
         </div>
         <section class= "menu">
                                                                   
             <ul class="grupos">
-              {{#each digitais}}
+              {{#each projetos}}
               
                 <li class="itens" >
                   <div>
                     <h3 class = "texto2">
-                      <a class = "linkss" href="projeto.html"> {{this.projetos}} </a>
+                      <a class = "linkss" href="projeto.html"> {{this.titulo}} </a>
 
                     </h3>
-              {{/each}} 
-                    <p class = "texto">{{full_categoria}}                
+              
+                    <p class = "texto">
+                    {{this.descricao}}                
                     </p>
 
                   </div>
 
-                  <img class = "picproj" src= "assets/img/{{this.imagem}}" width="320" height="205" alt= "Imagem de abertura do jogo com dragões">
+                  <img class = "picproj" src= "assets/img/{{this.imagem}}" width="320" height="205" alt= "{{this.imagem}}"> 
                       
                 </li>     
-
+              {{/each}} 
             </ul>
 
       </main>

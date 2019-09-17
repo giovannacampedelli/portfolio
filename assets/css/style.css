@@ -86,6 +86,7 @@ body {
 .link2{
     padding: 1rem;
     transition: background-color .25s, color .25s;
+    line-height: 150%;
 }
 
 .link2:hover {
