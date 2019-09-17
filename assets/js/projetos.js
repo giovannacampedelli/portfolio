@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   db.download('/', function(data) {
     
     context = data['portfolio'][value1]['projetos'][value2]
+    console.log(context)
     coDesReplace('.vazio', context)
 
 
