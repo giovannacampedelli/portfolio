@@ -6,5 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
   	console.log(data)
     coDesReplace('.section-menu', data)
     coDesReplace('.app_menu', data)
+    coDesReplace('.sec', data)
   })
 })

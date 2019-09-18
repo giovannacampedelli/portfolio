@@ -20,12 +20,13 @@ document.addEventListener('DOMContentLoaded', function() {
     context = data
 
     context = data['portfolio'][value]
+    coDesReplace('title', context)
 
     coDesReplace('.caminho_item', context)
 
     coDesReplace('.link_', context)
 
-    coDesReplace('title', context)
+    
 
   })
 })
