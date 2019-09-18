@@ -47,9 +47,9 @@ body {
 .sidebar {
   position: fixed;
   top: 0.5rem;
-  right: -1000px;
+  right: -500px;
   height: 200vh;
-  width: 490px;
+  width: 200px;
   display: block;
   background-color: #6a7329;
   transition: all 0.5s;
