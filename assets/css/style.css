@@ -49,7 +49,7 @@ body {
   top: 0.5rem;
   right: -200px;
   height: 200vh;
-  width: 465px;
+  width: 490px;
   display: block;
   background-color: #6a7329;
   transition: all 0.5s;
@@ -93,6 +93,7 @@ body {
     text-decoration: none;
     flex-wrap: center;
     color: #a6142f;
+    font-size: 1.1rem;
 }
 
 .link2:hover {
