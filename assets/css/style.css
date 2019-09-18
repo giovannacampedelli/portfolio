@@ -91,7 +91,7 @@ body {
     line-height: 150%;
     text-decoration: none;
     flex-wrap: center;
-    color: #a6142f;
+    color: #f2f2f2;
     font-size: 1.15rem;
 }
 
@@ -128,7 +128,7 @@ body {
 
     .sec{
         justify-content: space-between;
-        background-color: #f2f2f2 ;
+        background-color: #f2f2f2;
         display: flex;
         margin: 0.2rem;
         padding: 1rem;
